@@ -106,4 +106,4 @@ Execute the following command to start the application:
 
 ## Reporting issues
 
-If you would like request for new features or report any bugs, please post it to the [GitHub issue tracker](https://github.com/jamesleegovtech/myinfo-demo-app/issues).
+You may contact [support@myinfo.gov.sg](mailto:support@myinfo.gov.sg) for any other technical issues, and we will respond to you within 5 working days.
