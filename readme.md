@@ -43,7 +43,8 @@ You should be able to access the sample application via the following URL:
 http://localhost:3001
 ```
 
-![Demo Screenshot](screenshot.png)
+![Demo Screenshot](screenshot_main.png)
+![Demo Screenshot](screenshot_form.png)
 
 ---
 ## Login with SingPass
