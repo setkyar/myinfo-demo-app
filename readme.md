@@ -57,9 +57,11 @@ Password: ``MyInfo2o15``
 ---
 ## Enable PKI Digital Signature
 
-**Note:** <br>
-As of version 2.2.0 of our API specifications, the URLs of the APIs have changed,
-please note the different configurations accordingly.
+<span style="color:red">
+<strong>Note:</strong> <br>
+As of version 2.2.0 of our API specifications, the URLs of the APIs have changed.
+Please note the different configurations accordingly.
+</span>
 
 
 ### v2.2 APIs (LATEST)
