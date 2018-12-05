@@ -57,6 +57,62 @@ Password: ``MyInfo2o15``
 ---
 ## Enable PKI Digital Signature
 
+**Note:** <br>
+As of version 2.2.0 of our API specifications, the URLs of the APIs have changed,
+please note the different configurations accordingly.
+
+
+### v2.2 APIs (LATEST)
+
+**For Linux/MacOS**
+
+Edit the ``start.sh``. Look for ``SANDBOX ENVIRONMENT``, Comment out these configurations,
+```
+# SANDBOX ENVIRONMENT (no PKI digital signature)
+# export AUTH_LEVEL=L0
+# export MYINFO_API_AUTHORISE='https://sandbox.api.myinfo.gov.sg/com/v2/authorise'
+# export MYINFO_API_TOKEN='https://sandbox.api.myinfo.gov.sg/com/v2/token'
+# export MYINFO_API_PERSON='https://sandbox.api.myinfo.gov.sg/com//v2/person'
+```
+
+Look for ``TEST ENVIRONMENT``, uncomment these configurations,
+```
+# TEST ENVIRONMENT (with PKI digital signature)
+export AUTH_LEVEL=L2
+export MYINFO_API_AUTHORISE='https://test.api.myinfo.gov.sg/com/v2/authorise'
+export MYINFO_API_TOKEN='https://test.api.myinfo.gov.sg/com/v2/token'
+export MYINFO_API_PERSON='https://test.api.myinfo.gov.sg/com//v2/person'
+```
+Execute the following command to start the application:
+```
+  ./start.sh
+```
+
+**For Windows**
+
+Edit the ``start.bat``. Look for ``SANDBOX ENVIRONMENT``, comment out these configurations,
+```
+rem SANDBOX ENVIRONMENT (no PKI digital signature)
+rem set AUTH_LEVEL=L0
+rem set MYINFO_API_AUTHORISE=https://sandbox.api.myinfo.gov.sg/com/v2/authorise
+rem set MYINFO_API_TOKEN=https://sandbox.api.myinfo.gov.sg/com/v2/token
+rem set MYINFO_API_PERSON=https://sandbox.api.myinfo.gov.sg/com/v2/person
+```
+Look for ``TEST ENVIRONMENT``, uncomment these configurations,
+```
+rem TEST ENVIRONMENT (with PKI digital signature)
+set AUTH_LEVEL=L2
+set MYINFO_API_AUTHORISE=https://test.api.myinfo.gov.sg/com/v2/authorise
+set MYINFO_API_TOKEN=https://test.api.myinfo.gov.sg/com/v2/token
+set MYINFO_API_PERSON=https://test.api.myinfo.gov.sg/com/v2/person
+```
+Execute the following command to start the application:
+```
+  .\start.bat
+```
+
+### v2.1 APIs - DEPRECATED
+
 **For Linux/MacOS**
 
 Edit the ``start.sh``. Look for ``L0 APIs``, Comment out these configurations,
