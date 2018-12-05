@@ -83,7 +83,7 @@ Look for ``TEST ENVIRONMENT``, uncomment these configurations,
 export AUTH_LEVEL=L2
 export MYINFO_API_AUTHORISE='https://test.api.myinfo.gov.sg/com/v2/authorise'
 export MYINFO_API_TOKEN='https://test.api.myinfo.gov.sg/com/v2/token'
-export MYINFO_API_PERSON='https://test.api.myinfo.gov.sg/com//v2/person'
+export MYINFO_API_PERSON='https://test.api.myinfo.gov.sg/com/v2/person'
 ```
 Execute the following command to start the application:
 ```
