@@ -74,7 +74,7 @@ Edit the ``start.sh``. Look for ``SANDBOX ENVIRONMENT``, Comment out these confi
 # export AUTH_LEVEL=L0
 # export MYINFO_API_AUTHORISE='https://sandbox.api.myinfo.gov.sg/com/v2/authorise'
 # export MYINFO_API_TOKEN='https://sandbox.api.myinfo.gov.sg/com/v2/token'
-# export MYINFO_API_PERSON='https://sandbox.api.myinfo.gov.sg/com//v2/person'
+# export MYINFO_API_PERSON='https://sandbox.api.myinfo.gov.sg/com/v2/person'
 ```
 
 Look for ``TEST ENVIRONMENT``, uncomment these configurations,
