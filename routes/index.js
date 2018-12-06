@@ -143,6 +143,8 @@ function callPersonAPI(accessToken, res) {
     .buffer(true)
     .end(function(callErr, callRes) {
       if (callErr) {
+        console.error("ERROR",callErr.status);
+        console.error(callErr.response.req.res.text);
         res.jsonp({
           status: "ERROR",
           msg: callErr
