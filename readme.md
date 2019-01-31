@@ -163,6 +163,9 @@ Execute the following command to start the application:
 
 ---
 
+## Alternative Packages/Examples (Not Officials)
+[Laravel (PHPFramework) Package](https://github.com/carro-public/myinfo)
+
 ## Reporting issues
 
 You may contact [support@myinfo.gov.sg](mailto:support@myinfo.gov.sg) for any other technical issues, and we will respond to you within 5 working days.
